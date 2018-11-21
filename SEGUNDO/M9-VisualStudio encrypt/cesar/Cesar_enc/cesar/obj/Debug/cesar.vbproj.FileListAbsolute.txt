@@ -1,0 +1,50 @@
+F:\DAM 2\M9\cesar\cesar\cesar\bin\Debug\cesar.exe.config
+F:\DAM 2\M9\cesar\cesar\cesar\bin\Debug\cesar.exe
+F:\DAM 2\M9\cesar\cesar\cesar\bin\Debug\cesar.pdb
+F:\DAM 2\M9\cesar\cesar\cesar\bin\Debug\cesar.xml
+F:\DAM 2\M9\cesar\cesar\cesar\obj\Debug\cesar.Form1.resources
+F:\DAM 2\M9\cesar\cesar\cesar\obj\Debug\cesar.Resources.resources
+F:\DAM 2\M9\cesar\cesar\cesar\obj\Debug\cesar.vbproj.GenerateResource.Cache
+F:\DAM 2\M9\cesar\cesar\cesar\obj\Debug\cesar.exe
+F:\DAM 2\M9\cesar\cesar\cesar\obj\Debug\cesar.xml
+F:\DAM 2\M9\cesar\cesar\cesar\obj\Debug\cesar.pdb
+I:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.exe.config
+I:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.exe
+I:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.xml
+I:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.pdb
+I:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.exe
+I:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.pdb
+I:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.xml
+I:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.Form1.resources
+I:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.Resources.resources
+I:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.vbproj.GenerateResource.Cache
+F:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.exe.config
+F:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.exe
+F:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.xml
+F:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.pdb
+F:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.exe
+F:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.pdb
+F:\DAM 2\M9\cesar\cesar - copia\cesar\bin\Debug\cesar.xml
+F:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.Form1.resources
+F:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.Resources.resources
+F:\DAM 2\M9\cesar\cesar - copia\cesar\obj\Debug\cesar.vbproj.GenerateResource.Cache
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\bin\Debug\cesar.exe.config
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\obj\Debug\cesar.exe
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\obj\Debug\cesar.xml
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\obj\Debug\cesar.pdb
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\bin\Debug\cesar.exe
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\bin\Debug\cesar.pdb
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\bin\Debug\cesar.xml
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\obj\Debug\cesar.Form1.resources
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\obj\Debug\cesar.Resources.resources
+I:\DAM 2\M9\cesar\cesar - copia - copia\cesar\obj\Debug\cesar.vbproj.GenerateResource.Cache
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\bin\Debug\cesar.exe.config
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\obj\Debug\cesar.exe
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\obj\Debug\cesar.xml
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\obj\Debug\cesar.pdb
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\bin\Debug\cesar.exe
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\bin\Debug\cesar.pdb
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\bin\Debug\cesar.xml
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\obj\Debug\cesar.Form1.resources
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\obj\Debug\cesar.Resources.resources
+F:\DAM 2\M9\cesar\cesar - copia - copia - copia\cesar\obj\Debug\cesar.vbproj.GenerateResource.Cache

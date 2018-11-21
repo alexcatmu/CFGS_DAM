@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "ejercicio8.2.dtd">
+<movies>
+    <movie>
+        <title>pere</title>
+        <writer>referencia</writer>
+        <writer>referencia2</writer>
+        <producer>productor</producer>
+        <director>director</director>
+        <director>director2</director>
+        <comments>comentari</comments>
+    </movie>
+    <documental>
+        <titleDoc>pere</titleDoc>
+        <writerDoc>referencia</writerDoc>
+        <producerDoc>productor</producerDoc>
+        <directorDoc>director</directorDoc>
+        <creditsDoc>els credits</creditsDoc>
+        <creditsDoc>els credits2</creditsDoc>
+    </documental>	
+    <documental>
+        <titleDoc>pere</titleDoc>
+        <writerDoc>referencia</writerDoc>
+        <producerDoc>productor</producerDoc>
+        <directorDoc>director</directorDoc>
+        <creditsDoc>els credits</creditsDoc>
+        <creditsDoc>els credits2</creditsDoc>
+        <creditsDoc>els credits</creditsDoc>
+        <creditsDoc>els credits2</creditsDoc>
+    </documental>	
+    <movie>
+        <title>pere</title>
+        <writer>referencia</writer>
+        <writer>referencia2</writer>
+        <producer>productor</producer>
+        <director>director</director>
+        <director>director2</director>
+        <comments>comentari</comments>
+    </movie>
+</movies>

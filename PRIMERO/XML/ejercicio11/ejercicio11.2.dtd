@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT arrel (aa*) >
+<!ELEMENT aa (a, b, d, e, f+) >
+<!ELEMENT a (#PCDATA) >
+<!ELEMENT b ((c, c, c) | z) >
+<!ELEMENT d (#PCDATA) >
+<!ELEMENT e (y+ | x*) >
+<!ELEMENT f (#PCDATA | g | h | i)* >
+<!ELEMENT c (#PCDATA) >
+<!ELEMENT y (#PCDATA) >
+<!ELEMENT g (#PCDATA) >
+<!ELEMENT h (#PCDATA) >
+<!ELEMENT z (#PCDATA) >
+<!ELEMENT x EMPTY >
+<!ELEMENT i (#PCDATA) >
+

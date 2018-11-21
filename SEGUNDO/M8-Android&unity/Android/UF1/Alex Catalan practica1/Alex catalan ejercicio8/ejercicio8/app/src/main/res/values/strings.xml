@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">seleccion campeones</string>
+    <string-array name="array_tipos_campeones">
+        <item>Tirador</item>
+        <item>Tanque</item>
+        <item>Luchador</item>
+        <item>Mago</item>
+        <item>Apoyo</item>
+        <item>Asesino</item>
+    </string-array>
+    <string-array name="camps_tirador">
+        <item>Ashe</item>
+        <item>Azir</item>
+        <item>Caitlyn</item>
+        <item>Corki</item>
+        <item>Draven</item>
+        <item>Ezreal</item>
+        <item>Graves</item>
+        <item>Jayce</item>
+        <item>Jhin</item>
+        <item>Jinx</item>
+        <item>Kalista</item>
+        <item>Lucian</item>
+        <item>Miss Fortune</item>
+        <item>Quinn</item>
+        <item>Sivir</item>
+        <item>Urgot</item>
+        <item>Varus</item>
+        <item>Vayne</item>
+    </string-array>
+    <string-array name="camps_tanque">
+        <item>Blitzcrank</item>
+        <item>Amumu</item>
+        <item>Alistar</item>
+        <item>Aatrox</item>
+        <item>Galio</item>
+        <item>Garen</item>
+        <item>Gnar</item>
+        <item>Kled</item>
+        <item>Leona</item>
+        <item>Malphite</item>
+        <item>Maokai</item>
+        <item>Sejuani</item>
+    </string-array>
+    <string-array name="camps_luchador">
+        <item>Irelia</item>
+        <item>Kled</item>
+        <item>Maestro Yi</item>
+        <item>Hecarim</item>
+        <item>Illaoi</item>
+        <item>Fiora</item>
+    </string-array>
+    <string-array name="camps_mago">
+        <item>Anivia</item>
+        <item>Diana</item>
+        <item>Kennen</item>
+        <item>Katarina</item>
+        <item>Kassadin</item>
+        <item>Fiddlesticks</item>
+        <item>Brand</item>
+        <item>Annie</item>
+    </string-array>
+    <string-array name="camps_apoyo">
+        <item>Bardo</item>
+        <item>Kayle</item>
+        <item>Karma</item>
+        <item>Nunu</item>
+        <item>Nami</item>
+        <item>Morgana</item>
+    </string-array>
+    <string-array name="camps_asesino">
+        <item>Evelynn</item>
+        <item>Ekko</item>
+        <item>Akali</item>
+        <item>Ahri</item>
+        <item>Jhin</item>
+        <item>Nocturne</item>
+        <item>Malzahar</item>
+        <item>Yasuo</item>
+    </string-array>
+</resources>

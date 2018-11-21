@@ -1,0 +1,43 @@
+
+table{
+height:98%;
+width:98%;
+padding:4px;
+border:double black;
+table-layout:fixed;
+border-collapse:collapse;
+}
+
+table td:hover, table th:hover{
+    background-color:yellow;
+    color:white;
+}
+
+td, th{
+border:2px solid gray;
+}
+thead{
+background-color:black;
+color:white;
+}
+
+tfoot{
+    background-color:red;
+}
+
+tbody th{
+    background-color:yellow;
+}
+
+tbody td{
+    background-color:silver;
+}
+
+
+caption{
+caption-side:top;
+}
+
+.total{
+font-weight:bold;
+}

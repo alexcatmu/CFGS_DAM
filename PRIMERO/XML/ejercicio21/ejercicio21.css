@@ -1,0 +1,25 @@
+h1{
+    color:#5050b8;
+    padding-left:35px;
+    border-bottom:1px solid #cdcd83;
+}
+
+body{
+    width:700px;
+    margin-left:30px;
+    font-family:trebuchet MS, arial, Helvetica, sans-serif;
+    background-color:#fff;
+    color:#333;
+    font-size:0.9em;
+    line-height: 2;
+}
+
+.familia{
+    font-family:sans-serif;
+}
+h2{
+    background-image: url("trebol.png");
+    background-repeat:no-repeat;
+    background-position:left;
+    padding:30px;
+}

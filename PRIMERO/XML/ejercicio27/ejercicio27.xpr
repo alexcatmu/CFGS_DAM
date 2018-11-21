@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns=""
+            positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="ejercicio27.xpr">
+        <file name="ejercicio27.css"/>
+        <file name="ejercicio27.html"/>
+    </projectTree>
+</project>

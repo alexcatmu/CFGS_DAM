@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">  
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+        
+        <title>Ejercicio 9 - Crear, eliminar y modidicar nodos DOM</title>
+        <script type="text/javascript">
+            <!-- 
+            function genera(){
+                num = Math.random()*10;
+                num = Math.round(num);
+                num2 = Math.random()*10;
+                num2 = Math.round(num2);
+                document.getElementsByTagName("p")[0].innerHTML = num;
+                document.getElementsByTagName("p")[1].innerHTML = num2;
+            }
+            
+            function compara(){
+            
+                num = document.getElementsByTagName("p")[0].innerHTML;
+                num2 = document.getElementsByTagName("p")[1].innerHTML;
+                
+                if (num > num2){
+                    document.getElementsByTagName("p")[2].innerHTML = num;
+                }
+                else{
+                    document.getElementsByTagName("p")[2].innerHTML = num2;
+                }
+                
+                
+                setTimeout(function(){cambiarcolor()}, 500);
+            
+            }
+            
+            function cambiarcolor(){
+            
+                num = document.getElementsByTagName("p")[0].innerHTML;
+                num2 = document.getElementsByTagName("p")[1].innerHTML;
+                
+                if (num > num2){
+                    document.getElementsByTagName("p")[0].setAttribute("class", "blue");
+                }
+                else{
+                    document.getElementsByTagName("p")[1].setAttribute("class", "blue");
+                }
+            
+            }
+            
+            
+            
+            -->
+        </script>
+        
+        <style type="text/css">
+            .psr {width: 150px; height: 150px; border: thin solid silver;
+            background: #F5F5F5; float: left; margin:20px; font-size: 6em; color: #333; text-align:
+            center; padding: 5px; font-family:Arial, Helvetica, sans-serif;}
+            .psr p {margin:.2em 0;}
+            .resultado {margin-left:1.3em; border-color: black;}
+            .clear {clear:both;}
+            .blue{
+            background-color: blue;
+            color:white;
+            }
+            #compara {margin-left:11em;}
+            #genera {font-size:1.2em; margin-left:8em;}
+            
+        </style>
+    </head>
+    <body>
+        <input id="genera" type="button" value="¡¡ Genera !!" onclick='genera()'/>
+        <div class="psr"><p></p></div>
+        <div class="psr"><p></p></div>
+        <div class="clear"></div>
+        <input id="compara" type="button" value="Compara!!" onclick='compara()'/>
+        <div class="resultado psr"><p></p></div>
+    </body>
+</html>

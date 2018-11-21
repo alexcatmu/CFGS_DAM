@@ -1,0 +1,16 @@
+from pila import pila
+
+pila1 = pila()
+pila1.apilar(3)
+pila1.apilar(8)
+pila1.apilar(9)
+print()
+print(pila1.cantidad())
+print()
+print(pila1.desapilar())
+print(pila1.desapilar())
+print()
+print(pila1.cantidad())
+print()
+print(pila1.desapilar())
+print(pila1.desapilar())

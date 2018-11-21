@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arrel SYSTEM "ejercicio7.6.dtd">
+<arrel>
+    <a></a>
+    <b><![CDATA[
+void call()
+{
+int res;
+init_module(&res);
+for(int i = 0; i < = 0; i++) send_signal(&res,i);
+}
+]]>
+    </b>
+    <c/>
+    <d>Text</d>
+    <d>Text</d>
+    <e>
+        <f><g>Text</g></f>
+        <f><h>Text</h></f>
+    </e>
+    
+</arrel>
+

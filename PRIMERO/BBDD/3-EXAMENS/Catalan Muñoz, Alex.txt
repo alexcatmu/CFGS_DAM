@@ -1,0 +1,125 @@
+create table PROVINCIES(
+	codpro tinyint not null,
+	nom varchar(9) not null,
+)
+
+create table POBLES(
+	codpo int not null,
+	nom varchar(15) not null,
+	codpro tinyint not null,
+)
+
+create table CLIENTS (
+	codcli int IDENTITY(100,100) not null,
+	nom varchar(20) not null,
+	adreça varchar(25) not null,
+	codpostal int not null,
+	codpo int null,
+)
+
+create table ARTICLES (
+	codart char(8) not null,
+	descrip varchar(15) null,
+	preu smallmoney not null,
+	stock smallint null,
+	stock_min smallint not null,
+)
+
+create table FACTURES (
+	codfac smallint identity(1,1) not null,
+	data date not null,
+	codcli int not null,
+	iva tinyint not null,
+	dte decimal(4,2) not null,
+)
+
+
+create table LINIES_FAC(
+	codfac smallint not null,
+	linia tinyint not null,
+	codart char(8) not null,
+	quan smallint not null,
+	preu smallmoney not null,	
+)
+
+--claus primaries
+
+alter table PROVINCIES
+add
+constraint PK_Provincies primary key(codpro),
+constraint U_Nom unique (nom)
+
+
+alter table POBLES
+add
+constraint PK_POBLES primary key (codpo)
+
+alter table CLIENTS
+add
+constraint PK_CLIENTS primary key(codcli)
+
+alter table ARTICLES
+add 
+constraint PK_ARTICLES primary key (codart)
+
+alter table FACTURES
+add
+constraint PK_FACTURES primary key (codfac)
+
+alter table LINIES_FAC
+add
+constraint PK_LINIES_FAC primary key (codfac,linia)
+
+--claus secundaries
+
+alter table Pobles
+add
+constraint FK_codpro foreign key (codpro) references PROVINCIES(codpro)
+
+alter table CLIENTS
+add
+constraint FK_codpo foreign key (codpo) references POBLES(codpo)
+
+alter table FACTURES
+add
+constraint FK_codcli foreign key (codcli) references CLIENTS(codcli)
+
+alter table LINIES_FAC
+add
+constraint FK_codfac foreign key (codfac) references FACTURES(codfac),
+constraint FK_codart foreign key (codart) references ARTICLES(codart)
+
+
+
+--restriccions
+
+alter table ARTICLES
+add
+constraint CK_preu check (preu > 0),
+constraint DF_preu default 0 for preu
+
+alter table LINIES_FAC
+add
+constraint CK_preuL check (preu > 0),
+constraint DF_preuL default 0 for preu
+
+alter table ARTICLES
+add
+constraint CK_stock check (stock_min <= stock)
+
+alter table Factures
+add
+constraint DF_data default getdate() for data
+
+alter table ARTICLES
+add 
+constraint ck_codart check (codart like  '41[0-9][0-9][x][z][y][a-z]')
+
+alter table FACTURES
+add
+constraint CK_IVA check (iva = 16 or iva = 7)
+
+alter table PROVINCIES
+add
+constraint CK_Nom check (Nom in ('CASTELLON','TERUEL','VALENCIA','BARCELONA','TARRAGONA','GIRONA','LLEIDA'))
+

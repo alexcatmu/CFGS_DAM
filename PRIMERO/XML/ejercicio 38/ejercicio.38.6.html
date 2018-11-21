@@ -1,0 +1,118 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        
+        <title>38.3</title>
+        
+        <link rel="STYLESHEET" type="text/css" href="38.css"/> 
+        <script language="javascript">
+            <!--
+                var finestra;
+                var vegades = 0;
+                function obreFinestra(vegades) {
+                vegades++;
+                window.focus();
+                finestra = window.open('', 'win1', 'width=800,height=500,top=20,left=20');
+                with (finestra.document) {
+                writeln('<html>\n<head>\n<title>Colors</title>\n<link rel="STYLESHEET" type="text/css" href="38.css"/>\n</head>');
+
+                writeln('<body>');
+                writeln('<h1><br>' + 'JOC' + '</h1>');
+                writeln(' <table><tr>');
+                
+                var array = ['','','',''];
+                for ( var i=0 ; i<4 ; i++ ) {
+                var rnd = Math.floor( Math.random() * 4 );
+                switch ( rnd ) {
+                case 0: clr = 'pink'; break;
+                case 1: clr = 'red'; break;
+                case 2: clr = 'yellow'; break;
+                default: clr = 'blue';
+                }
+                
+                writeln( '<td class = "' + clr + '">' + rnd + '</td>' );
+                array[i] = rnd;
+                }
+
+                
+                writeln( '</tr><tr><td>' );
+                writeln('Ha sortit el resultat en ' + vegades + ' vegades');
+                writeln( '</td></tr>' );
+                writeln('</table>');
+                
+                writeln('<input type="button" value="Tanca" onclick="window.close()"/>');
+                close();
+                }
+                if ((array[0] != array[1]) || (array[1] != array[2]) || (array[2] != array[3]))
+                {
+                setTimeout(function(){finestra.close();obreFinestra(vegades);}, 200);
+                
+                }
+                finestra.focus();
+                
+                }
+                
+                var ii = 0;
+                
+                function moureFinestra() {
+                if (finestra) {
+                finestra.focus();
+                finestra.moveBy(5,5);
+                ii++;                   
+                
+                if (ii < 21){
+                setTimeout(moureFinestra,500);// setTimeout('moureFinestra()',500);
+                }
+                else{
+                finestra.close()
+                }                
+                
+                
+                }
+                }
+                
+                //-->
+            
+            
+            
+
+
+            
+        </script>
+        
+    </head>
+    <body>
+        
+        
+        <table>
+            <tr>
+                
+                <td>text a escriure</td>
+                <td>
+                    
+                    <input type="text" value="Text a escriure" name="input"/>
+                    
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    
+                    <input type="button" onClick="obreFinestra(0)" value="obre finestra"/>
+                    
+                </td>
+                
+            </tr>
+            
+        </table>
+        
+        
+        <input type="button" value="Tanca" onclick="finestra.close()"/>
+        <br/>
+        
+        
+        <input type="button" value="Mou finestra" onclick="moureFinestra()"/>
+        
+        
+    </body>
+</html>

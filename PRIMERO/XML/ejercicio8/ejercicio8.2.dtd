@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT movies (movie | documental)*>
+<!ELEMENT movie (title, writer+, producer+, director+, actor*, comments?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT comments (#PCDATA)>
+<!ELEMENT documental (titleDoc, writerDoc+, producerDoc+, directorDoc+, commentsDoc?, creditsDoc, creditsDoc+)>
+<!ELEMENT titleDoc (#PCDATA)>
+<!ELEMENT writerDoc (#PCDATA)>
+<!ELEMENT producerDoc (#PCDATA)>
+<!ELEMENT directorDoc (#PCDATA)>
+<!ELEMENT commentsDoc (#PCDATA)>
+<!ELEMENT creditsDoc (#PCDATA)>

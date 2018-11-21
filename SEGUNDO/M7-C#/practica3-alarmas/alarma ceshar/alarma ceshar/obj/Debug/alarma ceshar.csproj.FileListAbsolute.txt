@@ -1,0 +1,28 @@
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\bin\Debug\alarma ceshar.exe.config
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\bin\Debug\alarma ceshar.exe
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\bin\Debug\alarma ceshar.pdb
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.csprojResolveAssemblyReference.cache
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma_ceshar.Form1.resources
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma_ceshar.Properties.Resources.resources
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.csproj.GenerateResource.Cache
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.exe
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.pdb
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.WMPLib.dll
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.csproj.ResolveComReference.cache
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.MediaPlayer.dll
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.WMPDXMLib.dll
+F:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.WMPLauncher.dll
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\bin\Debug\alarma ceshar.exe.config
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.MediaPlayer.dll
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.WMPDXMLib.dll
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.WMPLauncher.dll
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\Interop.WMPLib.dll
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.csproj.ResolveComReference.cache
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.exe
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.pdb
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\bin\Debug\alarma ceshar.exe
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\bin\Debug\alarma ceshar.pdb
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.csprojResolveAssemblyReference.cache
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma_ceshar.Form1.resources
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma_ceshar.Properties.Resources.resources
+I:\DAM 2\M7\practica3-alarmas\alarma ceshar\alarma ceshar\obj\Debug\alarma ceshar.csproj.GenerateResource.Cache

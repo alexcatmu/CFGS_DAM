@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arrel SYSTEM "ejercicio11.1.dtd">
+<arrel>  <!-- 1 o més fills -->
+    <!-- els elements sense contingut són buits-->
+    <aa>
+        <a>TEXT</a>
+        <b>
+            <c> TEXT </c> <!-- exactament 3 -->
+            <c> TEXT </c>
+            <c> TEXT </c>
+        </b>
+        <d> TEXT </d>
+        <e/>
+        <f> <!-- un o més -->
+            <g> TEXT </g>
+            <h> TEXT </h>
+        </f>
+    </aa>
+    <aa>
+        <a> TEXT </a>
+        <b>
+            <c> TEXT </c>
+            <c> TEXT </c>
+            <c> TEXT </c>
+            
+        </b>
+        <d> TEXT </d>
+        <e/>
+        <f>
+            <g> TEXT </g>
+            <h> TEXT </h>
+        </f>
+        <f>
+            <g> TEXT </g>
+            <h> TEXT </h>
+            <i/>
+        </f>
+        
+    </aa>
+</arrel>
+
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie type="comedy" id="a">
+        <title>pere</title>
+        <writer>referencia</writer>
+        <writer>referencia2</writer>
+        <producer>productor</producer>
+        <director>director</director>
+        <director>director2</director>
+        <comments>comentari</comments>
+    </movie>
+    <movie id="b">
+        <title>pere</title>
+        <writer>referencia</writer>
+        <producer>productor</producer>
+        <director>director</director>
+    </movie>	
+</movies>

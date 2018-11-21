@@ -1,0 +1,76 @@
+body{
+background-image: url("../../Word/Mios/M4ex026/imatges/fons2.png");
+background-repeat:repeat-y;
+margin-left: 130px;
+margin-right: 350px;
+}
+
+.titulo{
+    background-image: url("../../Word/Mios/M4ex026/imatges/fir.png");
+    height:100px;
+    margin-top:10px;
+    background-repeat:no-repeat;
+}
+
+.avis{
+background-color:#bbb;
+}
+
+p {
+padding-left:65px;
+padding-right:30px;
+background-image: url("../../Word/Mios/M4ex026/imatges/tux.png");
+background-repeat:no-repeat;
+margin-top:0px;
+}
+
+.rbdalt{  
+    background-image: url("../../Word/Mios/M4ex026/imatges/esquina-superior-esquerra.gif");    
+    width: 100%;  
+    height: 16px;
+    background-repeat:no-repeat;
+    margin-bottom:0px;  
+}
+.rbdalt div{
+    background-image: url("../../Word/Mios/M4ex026/imatges/esquina-superior-dreta.gif");
+    background-position:right;
+    width: 100%;  
+    height: 16px;
+    background-repeat:no-repeat;
+    margin-bottom:0px;
+}
+
+.rbbaix {
+    background-image: url("../../Word/Mios/M4ex026/imatges/esquina-inferior-esquerra.gif");
+    width: 100%;  
+    height: 16px;
+    background-repeat:no-repeat;
+    margin-bottom:0px;
+}
+
+.rbbaix div {
+    background-image: url("../../Word/Mios/M4ex026/imatges/esquina-inferior-dreta.gif");
+    background-position:right;
+    width: 100%;  
+    height: 16px;
+    background-repeat:no-repeat;
+    margin-bottom:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

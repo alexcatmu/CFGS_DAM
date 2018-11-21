@@ -1,0 +1,39 @@
+.pink{
+	background-color: pink; 
+	height: 30px;
+
+}
+
+
+.red{
+	background-color: red; 
+	height: 30px;
+
+}
+
+.yellow{
+	background-color: yellow; 
+	height: 30px;
+
+}
+
+.blue{
+	background-color: blue; 
+	height: 30px;
+
+}
+
+table{
+	border: 1px solid black; 
+	width: 100%;
+	table-layout: fixed;
+}
+
+
+td {
+	colspan=4;
+	padding: 33px;
+	background-color:red;
+   }
+
+

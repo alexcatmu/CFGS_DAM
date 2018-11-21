@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">  
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+        
+        <title>Password</title>
+        <script type="text/javascript">
+            <!-- 
+                
+                function escribir(enlace){
+                    var x = document.getElementsByClassName("yellow");
+                    
+                    
+                    var i;
+                    
+                    if (enlace == 'prim'){
+                        n_enlaces = document.getElementsByTagName('a')[0].getAttribute('href');
+                        
+                        document.getElementsByTagName("a")[0].setAttribute("class", "blue");
+                        document.getElementById("respuesta").innerHTML = n_enlaces;
+                    }
+                    
+                    if (enlace == 'seg'){
+                        n_enlaces = document.getElementsByTagName('a')[1].getAttribute('href');
+                        
+                        document.getElementsByTagName("a")[1].setAttribute("class", "blue");
+                  
+                        document.getElementById("respuesta").innerHTML = n_enlaces;
+                    }
+                    
+                    if (enlace == 'ter'){
+                        n_enlaces = document.getElementsByTagName('a')[2].getAttribute('href');
+                        document.getElementsByTagName("a")[2].setAttribute("class", "blue");
+                        document.getElementById("respuesta").innerHTML = n_enlaces;
+                    }
+                    
+                
+                    
+                    
+                }
+                
+                function nada(){
+                    document.getElementsByTagName("a")[0].setAttribute("class", "yellow");
+                    document.getElementsByTagName("a")[1].setAttribute("class", "yellow");
+                    document.getElementsByTagName("a")[2].setAttribute("class", "yellow");
+                    document.getElementById("respuesta").innerHTML = '';
+                }
+                
+                
+                // -->
+        </script>
+        
+        <style type="text/css">
+            .yellow{
+            background-color: yellow;
+            }
+            
+            .blue{
+            background-color: blue;
+            }
+            
+            
+        </style>
+        
+    </head>
+    <body>
+        <h3>
+            <a href="pagina1.htm" class='yellow' onmouseover='escribir("prim")' onmouseout="nada()">
+                <span style="position:relative">Enllaç 1</span></a>
+            <a href="pagina2.htm" class='yellow' onmouseover='escribir("seg")' onmouseout="nada()">
+                <span  style="position:relative">Enllaç 2</span></a>
+            <a href="pagina3.htm" class='yellow' onmouseover='escribir("ter")' onmouseout="nada()">
+                <span style="position:relative">Enllaç 3</span></a>
+        </h3>
+        
+            <div id='respuesta'></div>
+        
+    </body>
+</html>

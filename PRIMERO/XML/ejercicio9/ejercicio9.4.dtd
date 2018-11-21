@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT movies (movie*)>
+<!ELEMENT movie (title, writer+, producer+, director+, actor*, comments?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT comments (#PCDATA)>
+<!ATTLIST movie type (comedy | adventure | drama) "drama" id ID #REQUIRED >
+<!ATTLIST movie Rating (G | PG | R | X) "PG" >
+<!ATTLIST movie Review (1 | 2 | 3 | 4) "1" >

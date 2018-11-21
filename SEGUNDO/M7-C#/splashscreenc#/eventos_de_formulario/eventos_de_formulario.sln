@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventos_de_formulario", "eventos_de_formulario\eventos_de_formulario.csproj", "{50D5A3AC-2BA0-4DC3-88CE-28983D4BF169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50D5A3AC-2BA0-4DC3-88CE-28983D4BF169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D5A3AC-2BA0-4DC3-88CE-28983D4BF169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D5A3AC-2BA0-4DC3-88CE-28983D4BF169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D5A3AC-2BA0-4DC3-88CE-28983D4BF169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

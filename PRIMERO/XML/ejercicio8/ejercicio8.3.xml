@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "ejercicio8.3.dtd">
+<movies>
+    <movie>
+        <title>pere</title>
+        <writer>referencia</writer>
+        <writer>referencia2</writer>
+        <producer>productor</producer>
+        <director>director</director>
+        <director>director2</director>
+        <comments>comentari</comments>       
+    </movie>
+    Futura peli Bigas Luna
+    <documental>
+        <titleDoc>pere</titleDoc>
+        <writerDoc>referencia</writerDoc>
+        <producerDoc>productor</producerDoc>
+        <directorDoc>director</directorDoc>
+    </documental> 
+</movies>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT alumnes (alumne, alumne)>
+<!ELEMENT alumne (nom, cognoms, Edat, ciutat, adreca+)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognoms (cognom, cognom)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT Edat (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT adreca (carrer, numero, pis, porta, cp)>
+<!ELEMENT carrer (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT pis (#PCDATA)>
+<!ELEMENT porta (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>

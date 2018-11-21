@@ -1,0 +1,41 @@
+body{
+text-align:center;
+background-color:gray;
+}
+
+.red{
+    background-color:red;
+}
+
+
+
+.blue{
+    background-color:blue;
+}
+
+
+.yellow{
+    background-color:yellow;
+}
+
+
+
+
+.pink{
+    background-color: pink;
+}
+
+td{
+    width:400px;
+    height:50px;
+}
+
+.negrita{
+    font-weight:bold;
+}
+
+
+
+
+
+

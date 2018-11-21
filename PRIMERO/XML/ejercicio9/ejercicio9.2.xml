@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE NEWSPAPER SYSTEM "ejercicio9.2.dtd" >
+<NEWSPAPER>
+    <ARTICLE AUTHOR="Juan Diego" DATE="2006/03/08" EDITION="1" EDITOR="Juan Diego">
+        <HEADLINE>HEADLINE</HEADLINE>
+        <BYLINE>BYLINE</BYLINE>
+        <LEAD>LEAD</LEAD>
+        <BODY>BODY</BODY>
+        <NOTES>NOTES</NOTES>
+    </ARTICLE>
+</NEWSPAPER>

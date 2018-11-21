@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT base (aa | (be, be) | c)+ >
+<!ELEMENT aa ((dd, dd) | (pe)) >
+<!ELEMENT dd (#PCDATA) >
+<!ELEMENT pe (#PCDATA | i)* >
+<!ELEMENT i (#PCDATA) >
+<!ELEMENT be (ka, ele, ele, m?, ((n, o) | (o, n))) >
+<!ELEMENT ka (#PCDATA) >
+<!ELEMENT ele EMPTY >
+<!ELEMENT m (#PCDATA) >
+<!ELEMENT n (#PCDATA) >
+<!ELEMENT o (#PCDATA) >
+<!ELEMENT c ((z, z, z+) | (y*)) >
+<!ELEMENT z (#PCDATA) >
+<!ELEMENT y (#PCDATA) >
+<!ATTLIST be 
+                atri1 ID #REQUIRED>
+<!ATTLIST ka
+                atri2 (r1 | r2 | r3) #IMPLIED>
+<!ATTLIST ele
+                atri3 (Ge | He) "Ge">

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "examen.dtd">
+<base>  <!--  Com a poc té un fill. Els seus fills poden aparèixer en qualsevol ordre.-->
+    <aa> <!-- Si n'apareixen. Primer model per a fills d'aa-->
+        <dd> Text </dd>
+        <dd> Text </dd>
+    </aa>
+    <aa> <!-- segon model per a fills d'aa-->
+        <pe> 
+            <i/>
+            <![CDATA[ Zona CDATA ]]>
+            <i/>
+        </pe>
+    </aa>
+    <be atri1="Sa1"> <!-- Sempre, si apareixen, n'apareixen múltiples de dos. Primer model per a b -->
+        <ka atri2="r2"></ka>
+        <ele atri3="Ge"></ele> <!-- Element sense contingut -->
+        <ele atri3="He"></ele>
+        <n> Text </n>
+        <o></o>
+    </be>  
+    <be atri1="Sa2"> <!-- Segon model per a b -->
+        <ka></ka>
+        <ele atri3="He"></ele>
+        <ele atri3="He"></ele>
+        <m></m>
+        <o> Text </o>
+        <n></n>
+    </be>
+    <c> <!-- 3 o més z o 0 o més y. z i y contindran texte -->
+    </c>
+    <be atri1="Sa3"> <!-- Primer model per a b -->
+        <ka atri2="r2"></ka>
+        <ele atri3="Ge"></ele> <!-- Element sense contingut -->
+        <ele atri3="He"></ele>
+        <m></m>
+        <n></n>
+        <o></o>
+    </be>  
+    <be atri1="Sa4"> <!-- Segon model per a b -->
+        <ka></ka>
+        <ele atri3="He"></ele>
+        <ele atri3="He"></ele>
+        <o></o>
+        <n></n>
+    </be>
+</base>

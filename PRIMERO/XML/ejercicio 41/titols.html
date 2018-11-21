@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Hola Mundo con AJAX</title>
+        
+        <style type="text/css">
+            body { font: 13px Arial, Helvetica, sans-serif; }
+            h2 { margin-bottom: 0; font-size: 1.2em; }
+            #recurso, #enviar { padding: .3em; font-size: 1.2em; }
+            #principal { float: left; width: 70%; }
+            #secundario { float: right; width: 25%;}
+            #contenidos, #estados, #codigo {
+            border: 2px solid #CCC;
+            background: #FAFAFA;
+            padding: 1em;
+            
+            }
+            #contenidos {
+            height: 400px;
+            overflow: scroll;
+            }
+            
+            #codigo { font-size: 1.5em; 
+            height: 200px;
+            overflow: scroll;}
+            
+            
+        </style>
+        
+        <script type="text/javascript">
+            function descargaArchivo(url) {
+            // Obtener la instancia del objeto XMLHttpRequest
+            peticion_http = new ActiveXObject("Microsoft.XMLHTTP");
+            // Preparar la funcion de respuesta
+            peticion_http.onreadystatechange = muestraContenido;
+            // Realizar peticion HTTP
+            peticion_http.open('GET', url, true);
+            peticion_http.send(null);
+            }
+            
+            
+            function muestraContenido() {
+            if(peticion_http.readyState == 4) {
+            if(peticion_http.status == 200) {
+            
+            //var contenidos = document.getElementById('contenidos');
+            //contenidos.innerHTML = peticion_http.responseText;
+            
+            alert(peticion_http.responseText);
+            }}
+            
+            }
+            
+            
+        </script>
+    </head>
+    <body>
+        <h1>Primer programa amb AJAX</h1>
+        <p><input type="text" name="nom" size="32" maxlength="60"/></p>
+        <input id="genera" type="button" value="Genera" onclick="descargaArchivo(nom.value)"/>
+        <input id="genera2" type="button" value="Titols" onclick="titols()" />
+        
+        <hr/>
+        
+        
+        <div id="principal">
+            <h2>Contenidos del archivo:</h2>
+            <div id="contenidos"></div>
+        </div>
+        <div id="secundario">
+            <h2>Espai secundari</h2>
+            <div id="estados">
+                <p>text text text text text text text text text text text text text text text text text text text text </p>
+                <p>text text text text text text text text text text text text text text text  </p>
+            </div>
+            <h2>Un altre espai</h2>
+            <div id="codigo">
+                <p>text text text text text text text text text text text text text text text text text text text text </p>
+                <p>text text text text text text text text text text text text text text text  </p>
+                <p>text text text text text text text text text text text text text text text text text text text text </p>
+                <p>text text text text text text text text text text text text text text text  </p>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>

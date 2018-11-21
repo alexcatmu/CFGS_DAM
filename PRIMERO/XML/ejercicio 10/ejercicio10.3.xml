@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arrel SYSTEM "ejercicio10.3.dtd">
+<arrel>
+    <a at1="a1"> <!-- L'atribut ha de tenir un valor forçosament i aquest serà únic -->
+        <c>Contingut</c>
+        <e at3="v1"/> <!-- element sense contingut -->
+        <e at3="v1"/> <!-- el seu atribut pot prendre valors v1 o v2 per defecte v1-->
+    </a>
+    <a at1="a2">
+        <c at2="fixe">Contingut</c> <!-- L'atribut ha de tenir un valor fixe -->
+        <d>Contingut</d> <!-- 2  elements -->
+        <d>Contingut</d>
+    </a>
+    <![CDATA[ ZONA NO ANLITZADA PEL PARSER ]]>
+    <b>
+        <f>Contingut</f> <!-- no té màxim, múltiples de 3 -->
+        <f>Contingut</f>
+        <f>Contingut</f>
+        <g>Contingut</g> <!-- no té màxim, mínim 1 -->
+        <h>Contingut</h> <!--1 com a molt -->		
+    </b>
+    <b>
+        <g>Contingut</g>
+        <g><![CDATA[ ZONA NO ANLITZADA PEL PARSER ]]></g>	
+    </b>
+    <a at1="a3">
+        <c>Contingut</c>
+        <d>Contingut</d>
+        <d>Contingut</d>
+    </a>
+    Propera inserció
+    <a at1="a4">
+        <c>Contingut</c>
+        <e at3="v2"></e> <!-- 2  elements -->
+        <e></e>
+    </a>
+</arrel>

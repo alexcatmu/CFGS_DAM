@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnes SYSTEM "ejercicio7.4.dtd">
+<alumnes>
+    <alumne>
+        <!-- PRIMER ALUMNE -->
+        <nom>Juan Diego</nom>
+        <cognoms>
+            <cognom>Pérez</cognom>
+            <cognom>Mohedano</cognom>
+        </cognoms>
+        <Edat>27</Edat>
+        <ciutat>Viladecans</ciutat>
+        <adreca>
+            <carrer>Pstg. Dos de Mayo</carrer>
+            <numero>2</numero>
+            <pis>4</pis>
+            <porta>1</porta>
+            <cp>08440</cp>
+            <tel>08440</tel>
+        </adreca>
+    </alumne>
+    <alumne>
+        <nom>Sergi</nom>
+        <cognoms>
+            <cognom>Tur</cognom>
+            <cognom>Badenas</cognom>
+        </cognoms>
+        <Edat>27</Edat>
+        <ciutat>Barcelona</ciutat>
+        <adreca>
+            <carrer>Rue del Percebe</carrer>
+            <numero>13</numero>
+            <pis>1</pis>
+            <porta>1</porta>
+            <cp>08000</cp>
+        </adreca>
+    </alumne>
+</alumnes>

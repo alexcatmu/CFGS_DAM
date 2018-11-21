@@ -1,0 +1,10 @@
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\bin\Debug\Alarmas.exe.config
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\bin\Debug\Alarmas.exe
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\bin\Debug\Alarmas.pdb
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\bin\Debug\Alarmas.xml
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\obj\Debug\Alarmas.Form1.resources
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\obj\Debug\Alarmas.Resources.resources
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\obj\Debug\Alarmas.vbproj.GenerateResource.Cache
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\obj\Debug\Alarmas.exe
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\obj\Debug\Alarmas.xml
+F:\DAM 2\M7\practica3-alarmas\Alarmas\Alarmas\obj\Debug\Alarmas.pdb

@@ -1,0 +1,69 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        
+        <title>ejercicio 39</title>
+        <link rel="STYLESHEET" type="text/css" href="ejercicio39.css"/>
+        
+        <script type="text/javascript">
+            <!-- 
+                function anadir(){
+                
+                
+                if (document.forms[0].selecciona.value == '1'){
+                document.forms[0].result.value += document.forms[0].texto.value + '\n'; 
+                
+                }
+                
+                if(document.forms[0].selecciona.value == '2'){
+                
+                document.forms[1].result.value += document.forms[0].texto.value + '\n'; 
+                }
+                
+                if (document.forms[0].selecciona.value == 'ninguno'){
+                
+                document.forms[0].texto.value = "rellena algun campo";
+                }
+                
+                
+                } 
+                
+                
+                
+            -->
+            
+        </script>
+        
+        
+        
+    </head>
+    <body>
+        
+        
+        <form>
+            <p>Rellenar</p>
+            <input type="text" name="texto" size="32" maxlength="60"><br></br>
+                <p>selecciona personaje</p>
+                
+                
+                <select name="selecciona">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>ninguno</option>
+                </select>
+                
+                
+                    <input type="button" name="enviar" value="Mostrar" onClick="anadir()"><br></br>
+                        
+                        
+                        <textarea name="result" rows="8" cols="40"></textarea><br></br><br></br>
+        </form>
+        
+        
+        <form>
+            <textarea name="result" rows="8" cols="40"></textarea>
+        </form>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        
+        <title>Ejercicio 33</title>
+        <link rel="stylesheet" type="text/css" href="ejercicio34.css"></link>
+    </head>
+    <body>
+        <script type="text/javascript">
+        <!--  
+            document.write("<table id=ejer1>");
+            for (var i=1; i<=100; i++){
+                if (i%10==1){
+                    document.write('<tr>');
+                }
+                
+                document.write('<td border=1px solid black>'+i+'</td>');
+                
+                if (i%10==0){
+                    document.write('</tr>');
+                }
+            
+            }
+            document.write("</table>");
+            
+            
+            // -->
+        
+        </script>
+        
+        <br/><br/>
+        
+        <script type="text/javascript">
+            <!--  
+                document.write("<table id=ejer2>");
+                for (var i=98; i>=0; i=i-2){
+                if (i%20==1){
+                document.write('<tr>');
+                }
+                
+                document.write('<td>'+i+'</td>');
+                
+                if (i%20==0){
+                document.write('</tr>');
+                }
+                
+                }
+                document.write("</table>");
+                
+                
+                // -->
+            
+        </script>
+        
+        <br/><br/>
+        
+        <script type="text/javascript">
+            <!--
+                document.write("<table id=ejer3>");
+                var num_dades=prompt("Quantes dades vols introduir?","");
+                var orden = new Array() ;
+              
+                for (var i=0;i<num_dades; i++){
+                orden[i] = prompt("Introdueix dada:")
+                }
+                for(var i=0; i<orden.length; i++ ){
+
+                document.writeln('<tr><td>' + orden[i] + '</td></tr>') ;
+                }
+                
+                document.write("</table>");
+                // -->
+        </script>
+        
+        <br/><br/>
+        
+        <script type="text/javascript">
+            <!--
+                document.write("<table id=ejer4>")
+                
+                for(var i=0; i<orden.length; i++ ){            
+                document.writeln('<tr><td>' + orden[i] + '</td></tr>') ;
+                }
+                
+                document.write("<tr><td> Ara a l'inreves </td></tr>")
+                
+                orden.reverse()
+                for(var i=0; i<orden.length; i++ ){
+                document.writeln('<tr><td>' + orden[i] + '</td></tr>') ;
+                }                
+                
+                document.write("</table>");
+                // -->
+        </script>
+        
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>

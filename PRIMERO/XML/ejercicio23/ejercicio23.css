@@ -1,0 +1,27 @@
+h3{
+    text-align:center;
+}
+
+h3, dl{
+    width:300px;
+    border:red solid 2px;
+}
+
+dt, dd{
+    padding-top:5px;
+    padding-left:5px;
+    padding-bottom:5px;
+}
+
+dt{
+    background-color:red;
+    color:white;
+}
+
+dl{
+    background-color:pink;
+}
+
+dd{
+    margin-left:0;
+}

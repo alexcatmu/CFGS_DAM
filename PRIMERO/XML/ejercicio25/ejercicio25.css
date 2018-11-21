@@ -1,0 +1,41 @@
+ul.menu {
+  width: 180px;
+  list-style: none;
+  display:inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.menu li {
+  background: #F4F4F4;
+  display:inline;
+   border-top: 1px solid red;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+
+ul.menu li a {
+  padding: .2em .2em .2em .5em;
+  text-decoration: none;
+  color:black;
+
+}
+ul.menu li a:link{
+    color:black
+}
+ul.menu li#activa {
+    color:black;
+    background: white;
+}
+
+ul.menu li a:visited {
+    color:white;
+}
+
+ul.menu li a#Aactiva:visited {
+    color:black;
+}
+
+ul.menu li:hover#activa, ul.menu li:hover {
+    background-color:yellow;
+}

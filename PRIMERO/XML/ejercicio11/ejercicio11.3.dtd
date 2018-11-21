@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT arrel (aa*) >
+<!ELEMENT aa (a, (b | d)+) >
+<!ELEMENT a (#PCDATA) >
+<!ELEMENT b (#PCDATA) >
+<!ELEMENT d (#PCDATA) >
+<!ATTLIST a a1 (v1 | v2 | v3) "v1" a2 ID #REQUIRED >
+<!ATTLIST b b1 CDATA #IMPLIED >

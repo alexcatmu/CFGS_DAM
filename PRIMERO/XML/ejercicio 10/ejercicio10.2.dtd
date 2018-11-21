@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT stock (productes+) >
+<!ELEMENT productes (producte+) >
+<!ELEMENT producte (nom, ((marca, preu) | (preu, marca)), (quantitat_disponible | fer_comanda), distribuidors)>
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT marca (#PCDATA) >
+<!ELEMENT preu (#PCDATA) >
+<!ELEMENT quantitat_disponible (#PCDATA) >
+<!ELEMENT fer_comanda (#PCDATA) >
+<!ELEMENT distribuidors (distribuidor | fabrica)+ >
+<!ELEMENT distribuidor (#PCDATA) >
+<!ELEMENT fabrica (nom, adreca, tlf) >
+<!ELEMENT adreca (#PCDATA) >
+<!ELEMENT tlf (#PCDATA) >

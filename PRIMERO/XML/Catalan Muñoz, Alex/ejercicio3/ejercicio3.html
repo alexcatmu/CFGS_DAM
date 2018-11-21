@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <title>Hola Mundo con AJAX</title>
+        
+        <style type="text/css">
+            body { font: 13px Arial, Helvetica, sans-serif; }
+            h2 { margin-bottom: 0; font-size: 1.2em; }
+            #recurso, #enviar { padding: .3em; font-size: 1.2em; }
+            #principal { float: left; width: 70%; }
+            #secundario { float: right; width: 25%;}
+            #contenidos, #estados, #codigo {
+            border: 2px solid #CCC;
+            background: #FAFAFA;
+            padding: 1em;
+            
+            }
+            #contenidos {
+            height: 400px;
+            overflow: scroll;
+            }
+            
+            #codigo { font-size: 1.5em; 
+            height: 200px;
+            overflow: scroll;}
+            
+            
+        </style>
+        
+        <script type="text/javascript">
+            <!-- 
+                function descargaArchivo(url) {
+                // Obtener la instancia del objeto XMLHttpRequest
+                peticion_http = new ActiveXObject("Microsoft.XMLHTTP");
+                // Preparar la funcion de respuesta
+                peticion_http.onreadystatechange = muestraContenido;
+                // Realizar peticion HTTP
+                peticion_http.open('GET', url, true);
+                peticion_http.send(null);
+                }
+                
+                
+                function muestraContenido() {
+                if(peticion_http.readyState == 4) {
+                if(peticion_http.status == 200) {
+                
+                //Poso el cocument XML en la variable oDocumento per parsejar-lo
+                var oDocumento = peticion_http.responseXML;
+                
+                //parsejant-lo extrec tots els títols
+                titles=oDocumento.getElementsByTagName("title");
+                //parsejant-lo extrec totes les descripcions
+                descs=oDocumento.getElementsByTagName("description");
+                
+                //vaig a construir la sortida
+                //inicialitzo la variable en la que concatenaré tot l'html
+                var html='';
+                
+                //alert(descs.length);
+                //alert(titles.length);
+                
+                
+                for(var i=0;i<descs.length-1;i++){
+                //alert(parseInt(i)+2);
+                html=html+'<h1>'+titles[parseInt(i)+2].childNodes[0].nodeValue+'</h1><p>'+descs[i+1].childNodes[0].nodeValue+'</p>';
+                }
+                
+                //Enganxo l'html en el div
+                var contenidos = document.getElementById('contenidos');
+                contenidos.innerHTML = html;
+                
+                }}
+                
+                
+                
+                }
+                
+                
+                
+                
+                
+                function titols(url) {
+                // Obtener la instancia del objeto XMLHttpRequest
+                peticion_http = new ActiveXObject("Microsoft.XMLHTTP");
+                // Preparar la funcion de respuesta
+                peticion_http.onreadystatechange = muestraContenido2;
+                // Realizar peticion HTTP
+                peticion_http.open('GET', url, true);
+                peticion_http.send(null);
+                }
+                
+                
+                function muestraContenido2() {
+                if(peticion_http.readyState == 4) {
+                if(peticion_http.status == 200) {
+                
+                //Poso el cocument XML en la variable oDocumento per parsejar-lo
+                var oDocumento = peticion_http.responseXML;
+                
+                //parsejant-lo extrec tots els títols
+                titles=oDocumento.getElementsByTagName("title");
+                //parsejant-lo extrec totes les descripcions
+                descs=oDocumento.getElementsByTagName("description");
+                
+                
+                
+                //vaig a construir la sortida
+                //inicialitzo la variable en la que concatenaré tot l'html
+                var html='';
+                
+                //alert(descs.length);
+                //alert(titles.length);
+                
+                inicio =document.forms[0].inici.value;
+                inicio = 0+parseInt(inicio);
+                
+                fin =document.forms[0].fi.value;
+                fin = 0+parseInt(fin);
+                
+                if (fin < descs.length-1){
+                    limit = fin;
+                }
+                else{
+                    limit = descs.length-1;
+                }
+                
+                for(i=inicio;i<limit;i++){
+                //alert(parseInt(i)+2);
+                html=html+'<h1>'+titles[parseInt(i)+2].childNodes[0].nodeValue+'</h1><p>'+descs[i+1].childNodes[0].nodeValue+'</p>';
+                }
+                
+                //Enganxo l'html en el div
+                var contenidos = document.getElementById('contenidos');
+                contenidos.innerHTML = html;
+                
+                }}
+                
+                
+                
+                }
+                
+                
+                // -->
+        </script>
+    </head>
+    <body>
+        <h1>Primer programa amb AJAX</h1>
+        <p><input type="text" name="nom" size="32" maxlength="60" value="http://localhost/rss.xml"/></p>
+        <input id="genera" type="button" value="Genera" onclick="descargaArchivo(nom.value)"/>
+        <input id="genera2" type="button" value="Titols" onclick="titols(nom.value)" />
+        <form>
+            <input type="text" name="inici" size="5" maxlength="5" value="1"/>
+            <input type="text" name="fi" size="5" maxlength="5" value="10"/>
+        </form>
+        <hr/>
+        
+        
+        <div id="principal">
+            <h2>Contenidos del archivo:</h2>
+            <div id="contenidos"></div>
+        </div>
+        <div id="secundario">
+            <h2>Espai secundari</h2>
+            <div id="estados">
+                <p>text text text text text text text text text text text text text text text text text text text text </p>
+                <p>text text text text text text text text text text text text text text text  </p>
+            </div>
+            <h2>Un altre espai</h2>
+            <div id="codigo">
+                <p>text text text text text text text text text text text text text text text text text text text text </p>
+                <p>text text text text text text text text text text text text text text text  </p>
+                <p>text text text text text text text text text text text text text text text text text text text text </p>
+                <p>text text text text text text text text text text text text text text text  </p>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>

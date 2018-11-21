@@ -1,0 +1,39 @@
+h1 {
+    background-color:red
+}
+
+h2 {
+    color:red;
+}
+
+h3{
+    color:red;
+}
+.amarillo{
+    background-color:yellow;
+}
+
+strong{
+    background-color:white;
+}
+
+#verde{
+    color:green;
+}
+
+.gris{
+    background-color:gray;
+}
+
+#azul{
+    color:blue;
+}
+
+#blanco{
+    color:white;
+}
+
+p:first-letter{
+    color:red;
+    font-size:20px;
+}

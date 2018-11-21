@@ -1,0 +1,110 @@
+
+catalan muñoz
+ejercicio 1     1
+
+select top 2 articles.descrip, articles.codart
+from ARTICLES join LINIES_FAC on ARTICLES.codart = LINIES_FAC.codart
+group by ARTICLES.descrip, ARTICLES.codart
+order by SUM(LINIES_FAC.quant) desc, ARTICLES.descrip
+
+
+ejercicio 2     1
+
+
+
+select COUNT(distinct FACTURES.codcli) as 'nombre de clients'
+from FACTURES join LINIES_FAC on FACTURES.codfac = LINIES_FAC.codfac
+
+ejercicio 3   0.9 > no >=
+
+select ARTICLES.descrip, ARTICLES.codart, SUM(LINIES_FAC.quant) as 'quantitat venuda'
+from ARTICLES join LINIES_FAC on ARTICLES.codart = LINIES_FAC.codart
+where ARTICLES.stock_min >= 35
+group by ARTICLES.descrip, ARTICLES.codart
+
+
+ejercicio 4   0 no mostra el diferent nombre de dtes
+
+
+select CLIENTS.codcli, CLIENTS.nom, POBLES.nom, POBLES.codpo, count(FACTURES.dte) as descomptes
+from CLIENTS join POBLES on CLIENTS.codpo = POBLES.codpo
+join FACTURES on FACTURES.codcli = CLIENTS.codcli
+where FACTURES.dte > 0
+group by CLIENTS.codcli, CLIENTS.nom, POBLES.nom, POBLES.codpo
+order by descomptes desc, CLIENTS.nom asc
+
+
+ejercicio 5      1
+
+select PROVINCIES.nom, PROVINCIES.codpro, count(CLIENTS.codcli) as num_clients
+from PROVINCIES join POBLES on POBLES.codpro = PROVINCIES.codpro
+join CLIENTS on CLIENTS.codpo = POBLES.codpo
+group by PROVINCIES.nom, PROVINCIES.codpro
+having COUNT(CLIENTS.codcli) > 1
+
+
+ejercicio 6 0.9 perquè no mostres del preu?
+
+select distinct ARTICLES.descrip, ARTICLES.codart
+from ARTICLES join LINIES_FAC on ARTICLES.codart = LINIES_FAC.codart
+where LINIES_FAC.preu < 20 and LINIES_FAC.codart like '%a%'
+
+
+ejercicio 7     1
+
+
+select CLIENTS.nom, CLIENTS.codcli, CLIENTS.adreça, FACTURES.codfac
+from CLIENTS left join FACTURES on CLIENTS.codcli = FACTURES.codcli
+
+
+
+ejercicio 8     1
+
+select CLIENTS.nom, CLIENTS.codcli
+from CLIENTS join FACTURES on CLIENTS.codcli = FACTURES.codcli
+join LINIES_FAC on LINIES_FAC.codfac = FACTURES.codfac
+group by CLIENTS.nom , CLIENTS.codcli
+having count(distinct LINIES_FAC.codart) > 1
+
+
+ejercicio 9   0.25 La subconsulta ja dona la resposta.
+
+select CLIENTS.*
+from CLIENTS
+where CLIENTS.codcli = any 
+	( select CLIENTS.codcli
+	from clients join clients as c on CLIENTS.codpo = c.codpo
+	where CLIENTS.codcli != c.codcli)
+
+
+ejercicio 10  0.25 La subconsulta ja dona la resposta.
+
+select CLIENTS.nom, CLIENTS.codcli
+from CLIENTS
+where clients.codcli != all 
+		(select CLIENTS.codcli
+		from CLIENTS join FACTURES on CLIENTS.codcli = FACTURES.codcli
+		join LINIES_FAC on LINIES_FAC.codfac = FACTURES.codfac
+		)
+
+
+ejercicio 11 0.9 join de més a la subconsulta
+
+
+select POBLES.codpo, POBLES.nom
+from POBLES join PROVINCIES on PROVINCIES.codpro = POBLES.codpro
+where POBLES.codpo != all (select POBLES.codpo
+			from POBLES join CLIENTS on CLIENTS.codpo = POBLES.codpo
+			)
+and PROVINCIES.nom like 'CASTELLON'
+
+
+
+ejercicio 12   0.9 join de més a la subconsulta
+
+select c.nom, c.codcli
+from CLIENTS as c
+where not exists (select CLIENTS.codcli, CLIENTS.nom
+		from CLIENTS join FACTURES on CLIENTS.codcli = FACTURES.codcli
+		where CLIENTS.codcli = c.codcli
+		)

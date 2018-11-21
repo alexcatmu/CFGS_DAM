@@ -1,0 +1,76 @@
+body {  
+    margin:0 auto; 
+    width: 800px;  
+}
+
+* {margin:0; padding:0;} 
+#capcelera {
+    background-image:url("fons-capcalera.png");
+    height:250px;
+    background-repeat:no-repeat;
+}
+
+#lateral {
+    width:25%;
+    float:right;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    color:purple;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:gray;
+}
+
+#h11{
+    text-align:right;
+    position:relative;
+    padding-top:180px;
+    padding-right:80px;
+    font-family:arial, helvetica, sans-serif;
+    color:blue
+}
+
+div.entrada{
+    background-image:url("flor1.jpg");
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    padding-bottom:100px;
+    margin-bottom:30px;
+}
+
+
+
+#contingut {
+    width:75%;
+}
+
+#peu {
+    background-color:green;
+    clear:right;
+    color:white;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+F:\DAM 2\m9-m7 visual, c#\proyectos\splashscreenc#\eventos_de_formulario\eventos_de_formulario\bin\Debug\eventos_de_formulario.exe.config
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\bin\Debug\eventos_de_formulario.exe.config
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\bin\Debug\eventos_de_formulario.exe
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\bin\Debug\eventos_de_formulario.pdb
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\obj\Debug\eventos_de_formulario.Properties.Resources.resources
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\obj\Debug\eventos_de_formulario.csproj.GenerateResource.Cache
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\obj\Debug\eventos_de_formulario.exe
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\obj\Debug\eventos_de_formulario.pdb
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\obj\Debug\eventos_de_formulario.Form1.resources
+F:\DAM 2\M7\eventos_de_formulario\eventos_de_formulario\obj\Debug\eventos_de_formulario.csprojResolveAssemblyReference.cache

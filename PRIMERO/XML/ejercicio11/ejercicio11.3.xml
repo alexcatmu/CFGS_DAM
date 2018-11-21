@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arrel SYSTEM "vuite.dtd">
+<arrel>  <!-- 0 o més fills -->
+    <!-- els elements sense contingut són buits-->
+    <aa>
+        <a a1="v1" a2="a1">TEXT</a> <!-- Sempre un a seguit de qualsevol combinació de b's i d's'-->
+        <b>TEXT</b>
+        <d>TEXT</d>
+        
+    </aa>
+    
+    <aa>
+        <a a1="v1" a2="a2">TEXT</a> 
+        <!-- a1 pot prendre valors v1, v2 i v3 per defecte v1-->
+        <!-- a2 obligatori no pot prendre valors repetits-->
+        <b b1="a">TEXT</b>
+        <!-- b1 opcional-->
+        <d>TEXT</d>
+        <b>TEXT</b>
+        <d>TEXT</d>
+        <d>TEXT</d>
+    </aa>
+    
+</arrel>

@@ -1,0 +1,25 @@
+form{
+    border:2px solid black;
+    padding:15px;
+    width:250px;
+    height:780px;
+}
+
+fieldset{
+    border:none;
+    padding-bottom:10px;
+}
+
+fieldset.groc, fieldset.groc_vermell{
+    padding-bottom:10px;
+    background-color:yellow;
+    font-size:10px;
+    font-family:roman, 'times new roman', times, serif;
+    border:1px solid gray;
+    border-top:2px solid black;
+
+}
+
+fieldset.groc_vermell{
+    color:red;
+}
